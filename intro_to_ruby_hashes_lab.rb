@@ -41,9 +41,9 @@ def monopoly_with_third_tier
             four_pieces_owned: 200
   		      
   		    } #end of the rent_in_dollars hash
-  		}
-	}
-
+  		} #end of the railroads hash 
+	} #end of the monopoly hash 
+ 
 end
 
 def monopoly_with_fourth_tier
