@@ -49,12 +49,14 @@ def monopoly_with_third_tier
 end
 
 def monopoly_with_fourth_tier
-	monopoly = {
+ 		monopoly = {
   		  railroads: {
   		    pieces: 4, 
   		    names: {
   		      reading_railroad: {},
-  		      pennsylvania_railroad: {}
+  		      pennsylvania_railroad: {},
+  		      b_and_o_railroad: {},
+  		      shortline: {} 
   		    }, #end of the names hash  
   		    
   		    rent_in_dollars: {
@@ -66,4 +68,5 @@ def monopoly_with_fourth_tier
   		    } #end of the rent_in_dollars hash
   		} #end of the railroads hash 
 	} #end of the monopoly hash 
+ 
 end
